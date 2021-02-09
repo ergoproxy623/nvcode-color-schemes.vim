@@ -16,6 +16,7 @@ palette:
   orange: "#CE9178"
   blue: "#569CD6"
   light_blue: "#9CDCFE"
+  class_blue: "#729BFF"
   vivid_blue: "#4FC1FF"
   purple: "#C586C0"
   cyan: "#4EC9B0"
