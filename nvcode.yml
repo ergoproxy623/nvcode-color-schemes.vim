@@ -31,6 +31,7 @@ palette:
   menu_grey: "#282C34"
   special_grey: "#3B4048"
   vertsplit: "#3E4452"
+  parameter_yellow: "#D3F800"
 
 highlights:
   Normal: "fg bg"
@@ -139,7 +140,7 @@ highlights:
   TSFuncBuiltin: "yellow"
   TSFunction: "yellow"
   TSFuncMacro: "yellow"
-  TSParameter: "light_blue"
+  TSParameter: "parameter_yellow"
   TSParameterReference: "light_blue"
   TSMethod: "yellow"
   TSField: "light_blue"

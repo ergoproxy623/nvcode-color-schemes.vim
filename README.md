@@ -25,7 +25,7 @@ This color scheme requires [treesitter](https://github.com/nvim-treesitter/nvim-
 With `Vim-plug`
 
 ```viml
-Plug 'christianchiarulli/nvcode-color-schemes.vim'
+Plug 'ergoproxy623/nvcode-color-schemes.vim'
 Plug 'nvim-treesitter/nvim-treesitter'
 ```
 
@@ -64,7 +64,7 @@ endif
 - Create a YAML file
 - Modify the highlight groups with custom colors 
 - Run the generate script and save the output to the colors directory 
-	- `generate colorscheme_name.yml >  ./colors/colorscheme_name.vim`
+	- `./generate.rb nvcode.yml > ./colors/nvcode.vim`
 - Create a PR
 
 Below are the treesitter highlight groups; modify these to take advantage of treesitter highlighting.
