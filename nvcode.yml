@@ -32,6 +32,8 @@ palette:
   special_grey: "#3B4048"
   vertsplit: "#3E4452"
   parameter_yellow: "#D3F800"
+  keyword_brown: "#CC7832"
+  function_global: "#6DFAFF"
 
 highlights:
   Normal: "fg bg"
@@ -139,7 +141,7 @@ highlights:
   # Functions
   TSFuncBuiltin: "yellow"
   TSFunction: "yellow"
-  TSFuncMacro: "yellow"
+  TSFuncMacro: "function_global"
   TSParameter: "parameter_yellow"
   TSParameterReference: "light_blue"
   TSMethod: "yellow"
@@ -151,7 +153,7 @@ highlights:
   TSRepeat: "purple"
   TSLabel: "light_blue"
   # Does not work for yield and return they should be diff then class and def
-  TSKeyword: "blue"
+  TSKeyword: "keyword_brown"
   TSKeywordFunction: "purple"
   TSKeywordOperator: "blue"
   TSOperator: "white"
